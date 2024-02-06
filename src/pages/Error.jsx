@@ -1,12 +1,12 @@
 import MainNavigation from "../components/MainNavigation";
-import { Outlet } from "react-router-dom";
 
-export default function RootLayout() {
+export default function ErrorPage() {
   return (
     <>
       <MainNavigation></MainNavigation>
       <main>
-        <Outlet></Outlet>
+        <h1>Houve um erro ai</h1>
+        <p>Essa página não existe! </p>
       </main>
     </>
   );
